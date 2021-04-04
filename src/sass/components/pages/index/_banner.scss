@@ -1,0 +1,22 @@
+.banner-ctn {
+  margin-bottom: 40px;
+
+  div.row {
+    margin-left: 0;
+    margin-right: 0;
+    overflow: hidden;
+  }
+
+  a {
+    img {
+      transition: transform 3s;
+    }
+  }
+  &:hover {
+    a {
+      img {
+        transform: scale(1.2);
+      }
+    }
+  }
+}

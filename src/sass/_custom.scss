@@ -19,8 +19,78 @@ html {
 
 body {
   font-family: 'Exo', sans-serif;
+  background: #f2f2f2;
 }
 
 img {
   max-width: 100%;
+}
+
+.title {
+  color: #000;
+  text-transform: capitalize;
+  font-size: 13px;
+  line-height: 1.2;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0.5px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  transition: all 0.5s;
+  margin-bottom: 3px;
+  text-decoration: none;
+}
+
+.price-box {
+  text-align: center;
+
+  span {
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  span:first-child {
+    color: #30c39e;
+    margin-right: 3px;
+  }
+
+  span:nth-child(2) {
+    text-decoration: line-through;
+    color: #666;
+  }
+}
+.sale {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  padding: 3px 15px;
+  border-radius: 25px;
+  background: #DA2020;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  opacity: 1;
+  transition: all 0.5s ease 0s;
+}
+
+.product-img {
+  width: auto;
+  max-height: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.first-img {
+  top: 0;
+  opacity: 1;
+  transition: opacity 300ms;
+}
+
+.second-img {
+  top: 20px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 500ms;
 }

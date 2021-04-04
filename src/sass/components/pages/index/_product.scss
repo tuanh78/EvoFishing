@@ -1,0 +1,126 @@
+.product {
+  &-ctn {
+    margin-bottom: 40px;
+  }
+  &-list {
+    border-top: 2px solid #f6851d;
+    margin-left: 0;
+    margin-right: 0;
+    background: #fff;
+  }
+
+  &-nav {
+    padding-left: 0;
+    padding-right: 0;
+    border-right: 1px solid #f2f2f2;
+    p {
+      font-size: 19px;
+      font-weight: 600;
+      background-color: #f6851d;
+      width: 100%;
+      text-transform: uppercase;
+      color: #fff;
+      padding: 20px 5px 20px 25px;
+      position: relative;
+      margin-bottom: 0;
+    }
+
+    p:before {
+      content: '';
+      width: 0;
+      height: 0;
+      position: absolute;
+      top: -3.5px;
+      left: 0;
+      border-top: 36px solid transparent;
+      border-left: 20px solid;
+      border-bottom: 36px solid transparent;
+      border-left-color: #eb7609;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 0px;
+      font-size: 14px;
+
+      li {
+        a {
+          color: #333;
+          text-decoration: none;
+          padding: 5px;
+        }
+
+        &:hover {
+          a {
+            color: #f6851d;
+          }
+        }
+      }
+
+      li + li {
+        border-top: 1px solid #f2f2f2;
+      }
+
+    }
+  }
+
+  &-title {
+    text-align: center;
+    margin-bottom: 20px;
+
+    a {
+      font-size: 40px;
+      font-weight: 600;
+      color: #000;
+      line-height: 1.1;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    &:hover {
+      a {
+        color: #f6851d
+      }
+    }
+  }
+
+  .list-products {
+    padding: 0;
+    .product-item {
+      width: 20%;
+      border-bottom: 1px solid #f2f2f2;
+      border-right: 1px solid #f2f2f2;
+      position: relative;
+      padding: 10px 0;
+
+      &-img {
+        margin-bottom: 13px;
+        height: 179px;
+      }
+
+      a.title:hover {
+        color: #f6851d;
+        text-decoration: none;
+      }
+
+      &:hover {
+        .product-item-img {
+          .first-img {
+            opacity: 0;
+            visibility: hidden;
+          }
+
+          .second-img {
+            opacity: 1;
+            top: 0px;
+            visibility: visible;
+          }
+        }
+      }
+    }
+
+    .product-item:nth-child(5n) {
+      border-right: none;
+    }
+  }
+}
