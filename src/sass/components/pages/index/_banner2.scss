@@ -1,0 +1,51 @@
+.banner-2 {
+
+  &-ctn {
+    margin-bottom: 40px;
+
+    div.row {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
+  &-img:first-child {
+    padding-left: 0;
+    a {
+      img {
+        height: fit-content;
+      }
+    }
+  }
+
+  &-img:nth-child(2) {
+    a {
+      img {
+        height: fit-content;
+      }
+    }
+  }
+
+  div.col-lg-6 {
+    padding-right: 0;
+  }
+
+  &-img {
+    a {
+      img {
+        transition: transform 1s ease;
+        width: 100%;
+      }
+    }
+  }
+
+  &-img:hover {
+    a {
+      img {
+        transform: scale(1.1);
+      }
+    }
+  }
+
+
+}

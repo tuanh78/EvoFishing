@@ -94,3 +94,23 @@ img {
   visibility: hidden;
   transition: all 500ms;
 }
+
+.sport-title {
+  text-align: center;
+  margin-bottom: 20px;
+
+  a {
+    font-size: 40px;
+    font-weight: 600;
+    color: #000;
+    line-height: 1.1;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  &:hover {
+    a {
+      color: #f6851d
+    }
+  }
+}

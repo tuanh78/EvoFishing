@@ -1,0 +1,133 @@
+.footer {
+  background: #222;
+  padding-top: 30px;
+
+  &-logo {
+    text-align: center;
+
+    a {
+      height: 50px;
+
+      img {
+        max-height: 100%;
+      }
+    }
+  }
+
+  &-desc {
+    font-size: 14px;
+    color: #777;
+    line-height: 1.7;
+    letter-spacing: 0.2px;
+  }
+
+  &-contact {
+    div {
+      p {
+        color: #fff;
+        letter-spacing: 0.25px;
+        font-size: 14px;
+        line-height: 1.7;
+        font-weight: 500;
+      }
+
+      a {
+        font-size: 24px;
+        font-weight: 600;
+        color: #f6851d;
+        text-decoration: none;
+        transition: color 0.3s ease;
+      }
+
+      a:hover {
+        color: #d76c09;
+      }
+    }
+
+    .list-social {
+      ul {
+        padding-left: 0;
+        list-style-type: none;
+
+        li {
+          margin-right: 10px;
+          a {
+            display: inline-block;
+            color: #fff;
+            font-size: 17px;
+            padding: 3px 7px;
+            text-align: center;
+            border-radius: 3px;
+          }
+
+          .icon-fb {
+            background-color: #364E80;
+          }
+
+          .icon-tw {
+            background-color: #3688C7;
+          }
+
+          .icon-yt {
+            background-color: #D31C04;
+          }
+
+          .icon-ist {
+            background-color: #6F3596;
+          }
+        }
+      }
+    }
+  }
+
+  &-nav-menu {
+    .footer-title {
+      color: #fff;
+      font-size: 14px;
+      font-weight: 600;
+      margin-top: 0px;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+    }
+
+    .list-nav-menu {
+      ul {
+        list-style-type: none;
+        padding-left: 0;
+
+        li {
+          a {
+            text-decoration: none;
+            color: #777;
+            font-size: 14px;
+            margin-bottom: 4px;
+            line-height: 1.5;
+            transition: color 0.3s ease-out;
+          }
+        }
+
+        li:hover {
+          a {
+            color: #f6851d;
+          }
+        }
+      }
+    }
+  }
+
+  .copyright {
+    color: #777;
+    font-size: 13px;
+
+    a {
+      color: #777;
+      text-decoration: none;
+      transition: color 0.3s ease-in-out;
+    }
+
+    a:hover {
+      color: #f6851d;
+    }
+  }
+
+}

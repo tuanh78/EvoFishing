@@ -1,0 +1,32 @@
+.brand {
+  margin: 20px 0;
+
+  div.col-lg-2 {
+    padding: 0;
+  }
+
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #fff;
+  }
+
+  &-item {
+
+    a {
+      padding: 5px;
+      position: relative;
+      height: 56px;
+      img {
+        width: auto;
+        max-height: 100%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+
+      }
+    }
+  }
+}
